@@ -1,4 +1,4 @@
-var mangoose = require('mangoose');
+var mongoose = require('mongoose');
 
 var Todo = mongoose.model('Todo',{
   text:{
